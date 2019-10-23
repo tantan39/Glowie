@@ -12,4 +12,6 @@ jobs:
 
     steps:
       - checkout
-      - run: fastlane scan
+      - run:
+      name: Build Application
+      command: xcodebuild
