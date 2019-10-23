@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Bloomr
+
+  Created by Tan Tan on 8/9/19.
+  Copyright © 2019 phdv. All rights reserved.
+*/
+
+"Male" = "Nam";
+"Female" = "Nữ";
+"New Register" = "Đăng ký mới";
+"Register in Facebook" = "Đăng ký bằng Facebook";
+"Has a account" = "Đã có tài khoản.";
+"Login" = "ĐĂNG NHẬP";
+"Search name, ranking" = "Tìm kiếm tên, thứ hạng";
