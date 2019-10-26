@@ -18,8 +18,8 @@ jobs:
         curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
 
     - run:
-        name: Install CocoaPods
-        command: pod install --verbose
+      name: Install CocoaPods
+      command: pod install --verbose
 
       - run:
         name: Build Application
