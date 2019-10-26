@@ -4,11 +4,11 @@
 #
 version: 2.1
 jobs:
-  build:
+  build-and-test:
     # Specify the Xcode version to use
     macos:
       xcode: "11.0"
-    working_directory: ~/Bloomer
+    working_directory: ~/Bloomr
     steps:
     - checkout
     - run:
