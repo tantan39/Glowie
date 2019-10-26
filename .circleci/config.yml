@@ -9,12 +9,12 @@ jobs:
     macos:
         xcode: "11.0.0"
 #            working_directory: ~/Bloomr
-    override:
-        - bundle install
+#    override:
+#        - bundle install
 
     steps:
         - checkout
-        
+        - run: bundle install
         - run:
             name: Fetch CocoaPods Specs
             command: |
