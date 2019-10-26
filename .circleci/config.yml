@@ -31,7 +31,7 @@ jobs:
             command: xcodebuild
             
 workflows:
-version: 2.0
+#version: 2.0
 build-deploy:
     jobs:
     - build:
