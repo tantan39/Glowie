@@ -7,14 +7,15 @@ jobs:
   build:
     # Specify the Xcode version to use
     macos:
-      xcode: "11.1.0"
-    working_directory: ~/Bloomr
+      xcode: "11.0.0"
+#    working_directory: ~/Bloomr
     steps:
     - checkout
+
     - run:
         name: Install CocoaPods
-        command: pod install
+        command: pod install --verbose
 
-#      - run:
-#        name: Build Application
-#        command: xcodebuild
+      - run:
+        name: Build Application
+        command: xcodebuild
