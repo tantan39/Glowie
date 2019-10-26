@@ -8,7 +8,7 @@ jobs:
     # Specify the Xcode version to use
     macos:
         xcode: "11.0.0"
-        #    working_directory: ~/Bloomr
+            working_directory: ~/Bloomr
     override:
         - bundle install
 
@@ -29,3 +29,9 @@ jobs:
         - run:
             name: Build Application
             command: xcodebuild
+            
+workflows:
+version: 2.0
+build-deploy:
+    jobs:
+    - build:
