@@ -11,9 +11,9 @@ jobs:
 #    working_directory: ~/Bloomr
     steps:
     - checkout
-#    - run:
-#        name: Install CocoaPods
-#        command: pod install --verbose
+    - run:
+        name: Install CocoaPods
+        command: pod install --verbose
 #
 #      - run:
 #        name: Build Application
