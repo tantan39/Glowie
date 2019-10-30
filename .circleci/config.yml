@@ -13,9 +13,9 @@ jobs:
         FL_OUTPUT_DIR: output
     shell: /bin/bash --login -o pipefail
     steps:
-#        - add_ssh_keys:
-#        fingerprints:
-#            - "7f:54:2c:4e:e8:76:c6:ac:db:11:ac:0b:d3:6e:5d:63"
+        - add_ssh_keys:
+        fingerprints:
+            - "43:e2:9c:0d:2e:fa:f3:75:1b:d6:1b:52:83:71:d1:88"
         - checkout
         - run: bundle install
                     
