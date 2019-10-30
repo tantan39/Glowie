@@ -8,30 +8,17 @@ jobs:
     # Specify the Xcode version to use
     macos:
         xcode: "11.0.0"
-#            working_directory: ~/Bloomr
-#    override:
-#        - bundle install
-
+            working_directory: ~/Bloomr
     steps:
         - checkout
         - run: bundle install
-        - run:
-            name: Fetch CocoaPods Specs
-            command: |
-                curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
-        
-#        - run:
-#            name: Install CocoaPods
-#            command: |
-#                curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
-#                bundle exec pod install
-            
+                    
         - run:
             name: Build Application
             command: xcodebuild
             
 workflows:
-#version: 2.0
+version: 2.0
 build-deploy:
     jobs:
     - build:
