@@ -8,20 +8,24 @@ jobs:
     # Specify the Xcode version to use
     macos:
         xcode: "11.0.0"
-    working_directory: /Users/distiller/project
+    working_directory: /Users/distiller/project/Bloomr/
     environment:
         FL_OUTPUT_DIR: output
     shell: /bin/bash --login -o pipefail
     steps:
-        - add_ssh_keys:
-        fingerprints:
-            - "43:e2:9c:0d:2e:fa:f3:75:1b:d6:1b:52:83:71:d1:88"
         - checkout
         - run: bundle install
-                    
+        - run: cd Bloomr
+        - add_ssh_keys:
+            fingerprints:
+                - "43:e2:9c:0d:2e:fa:f3:75:1b:d6:1b:52:83:71:d1:88"
+        - run: cd Bloomr
+        - run:
+            name: Pod install
+            command: pod install
         - run:
             name: Build Application
-            command: xcodebuild
+            command: cd Bloomr && xcodebuild
             
 workflows:
     version: 2
