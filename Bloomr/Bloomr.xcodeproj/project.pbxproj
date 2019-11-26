@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B80C6DD8F47FDE51574EE67 /* Pods_BloomrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64B955F34573302ACBD86EE /* Pods_BloomrTests.framework */; };
 		54EC195CDB2D9D3B3A5CA6B6 /* Pods_Bloomr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E05D4666C5AEABB27EB9829 /* Pods_Bloomr.framework */; };
+		721AE8BCCBA37E101790C56D /* Pods_Bloomr_BloomrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F4DA5F3C218032FA3D75D8 /* Pods_Bloomr_BloomrTests.framework */; };
 		A70A3C6822F6AF8900A54BEF /* ShadowableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70A3C6722F6AF8800A54BEF /* ShadowableView.swift */; };
 		A70A3C6A22F6AFFA00A54BEF /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70A3C6922F6AFFA00A54BEF /* TextManager.swift */; };
 		A70A3C6D22F6B05F00A54BEF /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70A3C6C22F6B05F00A54BEF /* TypeAlias.swift */; };
@@ -317,7 +317,10 @@
 
 /* Begin PBXFileReference section */
 		1E05D4666C5AEABB27EB9829 /* Pods_Bloomr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bloomr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F4DA5F3C218032FA3D75D8 /* Pods_Bloomr_BloomrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bloomr_BloomrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDEE9DCB25AC0A9DE3EA62D /* Pods-BloomrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloomrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloomrTests/Pods-BloomrTests.release.xcconfig"; sourceTree = "<group>"; };
+		605C882700B3E3B48F2B1C8A /* Pods-Bloomr-BloomrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloomr-BloomrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests.release.xcconfig"; sourceTree = "<group>"; };
+		96EB337F913E2585D593C7E2 /* Pods-Bloomr-BloomrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloomr-BloomrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A5C54C0CC2B0DA9487BBF6 /* Pods-Bloomr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloomr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr.debug.xcconfig"; sourceTree = "<group>"; };
 		A70A3C6722F6AF8800A54BEF /* ShadowableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowableView.swift; sourceTree = "<group>"; };
 		A70A3C6922F6AFFA00A54BEF /* TextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
@@ -629,7 +632,6 @@
 		A7A7C0E22343985C00B6BDDC /* SampleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAPI.swift; sourceTree = "<group>"; };
 		A7AC88F4E8268D3208B40FE5 /* Pods-BloomrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloomrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloomrTests/Pods-BloomrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B5F1A6234CD57F00FAD152 /* Bloomr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bloomr.entitlements; sourceTree = "<group>"; };
-		B64B955F34573302ACBD86EE /* Pods_BloomrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloomrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB287BE8913B4D2BE550C49 /* Pods-Bloomr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloomr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -646,7 +648,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B80C6DD8F47FDE51574EE67 /* Pods_BloomrTests.framework in Frameworks */,
+				721AE8BCCBA37E101790C56D /* Pods_Bloomr_BloomrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +662,8 @@
 				FEB287BE8913B4D2BE550C49 /* Pods-Bloomr.release.xcconfig */,
 				A7AC88F4E8268D3208B40FE5 /* Pods-BloomrTests.debug.xcconfig */,
 				4EDEE9DCB25AC0A9DE3EA62D /* Pods-BloomrTests.release.xcconfig */,
+				96EB337F913E2585D593C7E2 /* Pods-Bloomr-BloomrTests.debug.xcconfig */,
+				605C882700B3E3B48F2B1C8A /* Pods-Bloomr-BloomrTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -668,7 +672,7 @@
 			isa = PBXGroup;
 			children = (
 				1E05D4666C5AEABB27EB9829 /* Pods_Bloomr.framework */,
-				B64B955F34573302ACBD86EE /* Pods_BloomrTests.framework */,
+				28F4DA5F3C218032FA3D75D8 /* Pods_Bloomr_BloomrTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1451,6 +1455,8 @@
 				A70BB7E322F4867900BE2A2D /* Sources */,
 				A70BB7E422F4867900BE2A2D /* Frameworks */,
 				A70BB7E522F4867900BE2A2D /* Resources */,
+				CA313B61EBB7CD6D23A5C013 /* [CP] Embed Pods Frameworks */,
+				BEB468417DE84D455BB45A9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1543,7 +1549,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BloomrTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Bloomr-BloomrTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1556,20 +1562,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		64ADFB6F83E9B08B3C20B480 /* [CP] Check Pods Manifest.lock */ = {
@@ -1612,78 +1613,55 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		BEB468417DE84D455BB45A9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C6668C8C96BA6E3033964AA5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework",
-				"${BUILT_PRODUCTS_DIR}/BadgeHub/BadgeHub.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
-				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework",
-				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
-				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/KWVerificationCodeView/KWVerificationCodeView.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
-				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
-				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTNavigationDropdownMenu.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BadgeHub.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrowingTextView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWVerificationCodeView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bloomr/Pods-Bloomr-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloomr/Pods-Bloomr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA313B61EBB7CD6D23A5C013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloomr-BloomrTests/Pods-Bloomr-BloomrTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2201,7 +2179,7 @@
 		};
 		A70BB7EF22F4867A00BE2A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7AC88F4E8268D3208B40FE5 /* Pods-BloomrTests.debug.xcconfig */;
+			baseConfigurationReference = 96EB337F913E2585D593C7E2 /* Pods-Bloomr-BloomrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -2221,7 +2199,7 @@
 		};
 		A70BB7F022F4867A00BE2A2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EDEE9DCB25AC0A9DE3EA62D /* Pods-BloomrTests.release.xcconfig */;
+			baseConfigurationReference = 605C882700B3E3B48F2B1C8A /* Pods-Bloomr-BloomrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
