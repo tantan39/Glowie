@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
         IQKeyboardManager.shared().shouldResignOnTouchOutside = true
         
         MSAppCenter.start("a57e98bf-0387-4f02-8fdb-f4c25a02bc34", withServices: nil)
+        //Testytttttt
         
 //        window?.rootViewController = ViewController()
 //        _ = HomeTabBarRouter().navigate(from: window, transitionType: .changeRootController, animated: true)
